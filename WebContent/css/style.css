@@ -1,0 +1,90 @@
+[contenteditable=true]:empty:before {
+    content: attr(data-placeholder);
+    color: darkgrey;
+}
+
+#teacherView, #studentView {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid #ECECEC;
+	font-family: "HelvRegularIBM","Helvetica Neue",Arial,sans-serif;
+}
+
+#teacherView h1 {
+	text-align: center;
+	background-color: #5596E6;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 7px;
+}
+
+#teacherView input#instructions {
+	padding: 1%;
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#teacherView #lessonContent {
+	width: 98%;
+	padding: 1%;
+    min-height: 200px;
+    overflow: auto;
+    max-height: 300px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#teacherView button {
+	background-color: #5596E6;
+    color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ECECEC;
+}
+
+#teacherView select {
+	background-color: #5596E6;
+    color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ECECEC;
+    float: right;
+}
+
+input.responseInput {
+	border: 1px solid #ECECEC;
+	padding: .5%;
+	max-width: 7%;
+}
+
+#studentView h1 {
+	text-align: center;
+	background-color: #AF6EE8;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 7px;
+}
+
+#studentView h5 {
+	margin: 0 auto;
+    padding: 1%;
+    width: 98%;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#studentView #lessonToSolve {
+	width: 98%;
+	padding: 1%;
+    min-height: 200px;
+    overflow: auto;
+    max-height: 300px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#studentView button {
+	background-color: #AF6EE8;
+    color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ECECEC;
+}
